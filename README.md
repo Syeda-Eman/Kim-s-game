@@ -1,6 +1,6 @@
 # Kim's Game - Sharpen your memory
 
-# A fun and engaging memory training challenge designed to improve your recall abilities.
+## A fun and engaging memory training challenge designed to improve your recall abilities.
 
 # How to play?
 - Go to itch.io
