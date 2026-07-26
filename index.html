@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kim's Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Kim's Game</h1>
+  <p id="instructions">Click <strong>Start Game</strong> to memorize the items before they are covered!</p>
+  
+  <div id="timer"></div>
+  <button id="start-btn" onclick="startGame()">Start Game</button>
+
+  <div id="tray"></div>
+  <div id="cover" class="hidden">🙈 Items are covered! Recalling time...</div>
+
+  <div id="recall-section" class="hidden">
+    <h3>Write down every item you remember (separated by commas or lines):</h3>
+    <textarea id="user-input" placeholder="e.g., Apple, Key, Book, Ring..."></textarea>
+    <br>
+    <button onclick="checkAnswers()">Submit Answers</button>
+  </div>
+
+  <div id="results" class="hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
